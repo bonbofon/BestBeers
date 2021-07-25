@@ -13,6 +13,8 @@
 		02113B11269DADA30053B039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02113B0F269DADA30053B039 /* Main.storyboard */; };
 		02113B13269DADA40053B039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02113B12269DADA40053B039 /* Assets.xcassets */; };
 		02113B16269DADA40053B039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02113B14269DADA40053B039 /* LaunchScreen.storyboard */; };
+		02113B1E269DAEF50053B039 /*  Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02113B1D269DAEF50053B039 /*  Beer.swift */; };
+		02113B20269DCBD90053B039 /* BeerCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02113B1F269DCBD80053B039 /* BeerCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		02113B12269DADA40053B039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02113B15269DADA40053B039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02113B17269DADA40053B039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02113B1D269DAEF50053B039 /*  Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Beer.swift"; sourceTree = "<group>"; };
+		02113B1F269DCBD80053B039 /* BeerCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				02113B09269DADA30053B039 /* AppDelegate.swift */,
 				02113B0B269DADA30053B039 /* SceneDelegate.swift */,
 				02113B0D269DADA30053B039 /* ViewController.swift */,
+				02113B1F269DCBD80053B039 /* BeerCardViewController.swift */,
 				02113B0F269DADA30053B039 /* Main.storyboard */,
 				02113B12269DADA40053B039 /* Assets.xcassets */,
 				02113B14269DADA40053B039 /* LaunchScreen.storyboard */,
 				02113B17269DADA40053B039 /* Info.plist */,
+				02113B1D269DAEF50053B039 /*  Beer.swift */,
 			);
 			path = BestBeers;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02113B1E269DAEF50053B039 /*  Beer.swift in Sources */,
 				02113B0E269DADA30053B039 /* ViewController.swift in Sources */,
 				02113B0A269DADA30053B039 /* AppDelegate.swift in Sources */,
 				02113B0C269DADA30053B039 /* SceneDelegate.swift in Sources */,
+				02113B20269DCBD90053B039 /* BeerCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
